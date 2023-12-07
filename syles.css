@@ -1,0 +1,95 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+.txlogo{
+    width: 5rem;
+    float: left;
+    margin-left: 8rem;
+    margin-top: -1rem;
+}
+h3 {
+    margin-left: -15rem;
+}
+.headerContainer {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+.homeLink {
+    text-decoration: underline white .2em;
+}
+.carouselMargins {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.carouselImage {
+    width: 70rem;
+    height: 40rem;
+    object-fit: cover;
+}
+.headerFloat {
+    float: left;
+}
+.card-img-top {
+    height: 25rem;
+    object-fit: cover;
+}
+.card {
+    background-color: rgba(0, 0, 0, 0.196);
+    color: white;
+    margin: 1rem;
+    width: 18rem;
+    display: inline-block;
+}
+.headerHover {
+    transition: 400ms ease-in-out;
+}
+.headerHover:hover {
+    text-decoration: underline rgba(255, 255, 255, 0.462) .2em;
+}
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.196);
+    width: 99vw;   
+    text-align: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+hr {
+    margin: 2rem 0;
+}
+.formBottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.stephane {
+    border-radius: 50%;
+    margin: 1rem;
+    margin-left: 15rem;
+}
+.formContact {
+    width: 60%;
+    margin: auto;
+}
+.submit {
+    margin-top: 2rem;
+}
+.wider {
+    width: 60%;
+}
+
+@media (max-width: 768px){
+    .formBottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .stephane {
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+    .formContact{
+        width: 100%;
+    }
+}
