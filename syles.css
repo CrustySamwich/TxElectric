@@ -55,6 +55,7 @@ h3 {
     padding: 1rem;
     border-radius: 1rem;
     box-sizing: border-box;
+    margin: auto;
 }
 hr {
     margin: 2rem 0;
